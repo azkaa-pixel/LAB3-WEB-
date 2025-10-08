@@ -25,7 +25,7 @@ Kelas : TI.24.A5
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/LAB3-WEB-/blob/d5658ac0e3bf7423795ac68552b5b54e094bd923/praktikum%203/ss%201.jpeg)
 
 #### ```- penjelasan``` :
 Kode ini membuat kerangka dasar halaman web dengan judul ```“Membuat List”``` yang akan digunakan untuk menampilkan berbagai jenis daftar.
@@ -45,7 +45,7 @@ Kemudian tambahkan kode untuk membuat Ordered List seperti berikut.
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/LAB3-WEB-/blob/d5658ac0e3bf7423795ac68552b5b54e094bd923/praktikum%203/ss%202.jpeg)
 
 #### ```- penjelasan``` :
 Menampilkan daftar berurutan menggunakan tag ```<ol>``` dan ```<li>```.
@@ -65,7 +65,7 @@ Kemudian tambakan kode untuk membuat Unordered List, setelah deklarasi ordered l
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/LAB3-WEB-/blob/d5658ac0e3bf7423795ac68552b5b54e094bd923/praktikum%203/ss%203.jpeg)
 
 #### ```- penjelasan``` :
 Menampilkan daftar tanpa nomor, menggunakan simbol kotak (```type="square"```) untuk setiap item.
@@ -90,7 +90,7 @@ Kemudian tambahkan kode untuk membuat description list setelah deklarasi unorder
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/LAB3-WEB-/blob/d5658ac0e3bf7423795ac68552b5b54e094bd923/praktikum%203/ss%204.jpeg)
 
 #### ```- penjelasan``` :
 Membuat daftar istilah dan penjelasan dengan tag ```<dt>``` untuk judul dan ```<dd>``` untuk deskripsinya.
@@ -149,7 +149,7 @@ Bagian ```<body>``` masih kosong karena tabel akan ditambahkan pada langkah beri
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/LAB3-WEB-/blob/d5658ac0e3bf7423795ac68552b5b54e094bd923/praktikum%203/ss%205.jpeg)
 
 #### ```- penjelasan``` :
 Kode ini digunakan untuk menampilkan tabel data sederhana yang berisi daftar fakultas dan program studi.
@@ -164,7 +164,7 @@ Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding d
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/LAB3-WEB-/blob/d5658ac0e3bf7423795ac68552b5b54e094bd923/praktikum%203/ss%206.jpeg)
 
 
 #### ```- penjelasan``` 
@@ -203,7 +203,7 @@ dan colspan untuk menggabungkan kolom (secara horizontal).
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/LAB3-WEB-/blob/d5658ac0e3bf7423795ac68552b5b54e094bd923/praktikum%203/ss%207.jpeg)
 
 #### ```- penjelasan``` :
 Kode ini menampilkan tabel dengan penggabungan sel secara vertikal menggunakan atribut ```rowspan="3"```.
@@ -251,7 +251,7 @@ Buat file baru dengan nama lab3_form.html seperti berikut.
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/LAB3-WEB-/blob/d5658ac0e3bf7423795ac68552b5b54e094bd923/praktikum%203/ss%208.jpeg)
 
 #### ```- penjelasan``` :
 Bagian ini berisi ```struktur halaman HTML``` yang digunakan untuk membuat form input data pelanggan.
@@ -276,7 +276,7 @@ Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/LAB3-WEB-/blob/d5658ac0e3bf7423795ac68552b5b54e094bd923/praktikum%203/ss%209.jpeg)
 
 #### ```- penjelasan``` :
 Kode CSS ini digunakan untuk memperindah tampilan form agar terlihat lebih rapi dan menarik.
@@ -376,7 +376,7 @@ tambahkan kode ini pada file ```lab3_form.html```
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/LAB3-WEB-/blob/d5658ac0e3bf7423795ac68552b5b54e094bd923/praktikum%203/ss%2010.jpeg)
 
 #### ```- penjelasan``` :
 Kode ini merupakan versi pengembangan dari form sebelumnya dengan tambahan ```dropdown menu``` dan ```listbox multiple selection```.
