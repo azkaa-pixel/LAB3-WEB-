@@ -153,8 +153,13 @@ Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding d
 #### ```- hasil```
 ![foto]()
 
+
 #### ```- penjelasan``` 
-### 1. 
+
+### 7. Menggabungkan Sel Data 
+Untuk menggabungkan sel data, gunakan atribut rowspan dan colspan. Atribut rowspan untuk menggabungkan baris (secara vertikal) 
+dan colspan untuk menggabungkan kolom (secara horizontal).  
+
 ```html
 
 ```
@@ -163,7 +168,26 @@ Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding d
 ![foto]()
 
 #### ```- penjelasan``` :
-### 1. 
+
+### 8. Membuat Form 
+Buat file baru dengan nama lab3_form.html seperti berikut. 
+ 
+```html
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>HTML Lanjutan</title> 
+</head> 
+<body> 
+    <header> 
+        <h1>Membuat Form</h1> 
+    </header> 
+</body> 
+</html> 
+```
+##### Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut: 
 ```html
 
 ```
@@ -172,7 +196,10 @@ Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding d
 ![foto]()
 
 #### ```- penjelasan``` :
-### 1. 
+
+### 9. Menabahkan Style pada Form 
+Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut. 
+ 
 ```html
 
 ```
@@ -181,3 +208,102 @@ Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding d
 ![foto]()
 
 #### ```- penjelasan``` :
+
+# pertanyaan dan tugas   
+
+1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
+   
+## jawaban : 
+tambahkan kode ini pada file ```lab3_form.html```
+
+```html
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>HTML Lanjutan</title> 
+    <style> 
+        form p > label {         
+            display: inline-block;         
+            width: 120px; 
+        } 
+        form input[type="text"], form textarea, form select {         
+            border: 1px solid #197a43; 
+        } 
+        form input[type="submit"] {         
+            border: 1px solid #197a43;         
+            background-color: #197a43;         
+            color: #ffffff;         
+            font-weight: bold;         
+            padding: 5px 15px; 
+            cursor: pointer;
+        } 
+    </style> 
+</head> 
+<body> 
+    <header> 
+        <h1>Membuat Form</h1> 
+    </header> 
+
+    <form action="proses.php" method="post"> 
+        <fieldset> 
+            <legend>Data Pelanggan</legend> 
+
+            <p> 
+                <label for="nama">Nama</label> 
+                <input type="text" id="nama" name="nama"> 
+            </p> 
+
+            <p> 
+                <label for="alamat">Alamat</label> 
+                <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>         
+            </p> 
+
+            <p> 
+                <label>Jenis Kelamin</label> 
+                <input id="jk_l" type="radio" name="kelamin" value="L" />
+                <label for="jk_l">Laki-laki</label>  
+                <input id="jk_p" type="radio" name="kelamin" value="P" />
+                <label for="jk_p">Perempuan</label> 
+            </p> 
+
+            <!-- Tambahan Dropdown -->
+            <p>
+                <label for="kota">Pilih Kota</label>
+                <select id="kota" name="kota">
+                    <option value="jakarta">Jakarta</option>
+                    <option value="bandung">Bandung</option>
+                    <option value="surabaya">Surabaya</option>
+                    <option value="yogyakarta">Yogyakarta</option>
+                </select>
+            </p>
+
+            <!-- Tambahan Listbox Multiple -->
+            <p>
+                <label for="hobi">Pilih Hobi</label><br>
+                <select id="hobi" name="hobi[]" multiple size="4">
+                    <option value="membaca">Membaca</option>
+                    <option value="olahraga">Olahraga</option>
+                    <option value="menyanyi">Menyanyi</option>
+                    <option value="traveling">Traveling</option>
+                </select>
+            </p>
+
+            <p>
+                <input type="submit" value="Login">
+            </p> 
+
+        </fieldset> 
+    </form> 
+</body> 
+</html>
+```
+
+#### ```- hasil```
+![foto]()
+
+#### ```- penjelasan``` :
+
+
+
